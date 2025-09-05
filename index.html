@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magnetic Phone Tripod - AZIZI.STORE</title>
+  <meta name="description" content="Tingkatkan kualitas konten Anda dengan Magnetic Phone Tripod – kaki stabil, pemasangan cepat, dan desain ringkas untuk konten kreator dan pengguna sehari-hari." />
+  <link rel="icon" type="image/x-icon" href="https://cdn.wshopon.com/image/d7dbacfeec80ab22cb350bc2d5fb5f18df83a59f-200.png" />
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind & AOS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  
+  <!-- Vanta.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+  
+  <style>
+    :root {
+      --font-heading: 'Poppins', sans-serif;
+      --font-body: 'Roboto', sans-serif;
+      --color-primary: #000000;
+      --color-secondary: #4a4a4a;
+      --color-tertiary: #9a9a9a;
+      --color-bg: #ffffff;
+      --color-accent: #c0c0c0;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-primary);
+    }
+
+    h1, h2, h3, h4 {
+      font-family: var(--font-heading);
+    }
+
+    .hero-bg {
+      background-image: url('https://cdn.wshopon.com/image/d7dbacfeec80ab22cb350bc2d5fb5f18df83a59f-500.png');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .glassmorphism {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.18);
+    }
+
+    .popup-social-proof {
+      position: fixed;
+      top: 20px;
+      right: -320px;
+      z-index: 9999;
+      transition: right 0.4s ease-in-out;
+      max-width: 300px;
+    }
+
+    .popup-social-proof.show {
+      right: 20px;
+    }
+
+    .lightbox-gallery img {
+      transition: transform 0.3s ease;
+    }
+
+    .lightbox-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .sticky-cta {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .sticky-cta {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body class="bg-white text-black font-roboto">
+
+  <!-- Social Proof Popup -->
+  <div id="social-proof-popup" class="popup-social-proof bg-white shadow-lg rounded-lg p-4 border-l-4 border-gray-300 flex items-start">
+    <div class="mr-3">
+      <div class="bg-gray-200 rounded-full w-10 h-10 flex items-center justify-center text-sm font-medium text-gray-700">V</div>
+    </div>
+    <div>
+      <p class="text-sm font-medium text-gray-800"><span id="popup-name">Vina</span> dari <span id="popup-city">Jakarta</span></p>
+      <p class="text-xs text-gray-500">baru saja memesan Magnetic Phone Tripod</p>
+      <p class="text-xs text-gray-400 mt-1" id="popup-time">1 menit lalu</p>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="relative h-screen flex items-center justify-center hero-bg bg-black/50 bg-blend-overlay">
+    <div class="text-center px-4 z-10">
+      <h1 class="text-4xl md:text-5xl font-semibold text-white mb-4" style="font-family: var(--font-heading);">Magnetic Phone Tripod</h1>
+      <p class="text-white text-lg md:text-xl max-w-2xl mx-auto mb-6">Tidak perlu repot dengan holder manual! Pemasangan dan pelepasan ponsel dengan sangat cepat.</p>
+      <a href="#order" class="inline-block bg-gray-300 hover:bg-gray-400 text-black font-medium py-3 px-6 rounded-lg transition duration-300">Pesan Sekarang</a>
+      <div class="flex justify-center space-x-6 mt-6 text-white text-sm">
+        <div class="flex items-center"><i data-feather="check-circle" class="mr-1"></i> Garansi 1 Minggu</div>
+        <div class="flex items-center"><i data-feather="truck" class="mr-1"></i> Gratis Ongkir</div>
+        <div class="flex items-center"><i data-feather="star" class="mr-1"></i> Bahan Premium</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section class="py-16 px-4 md:px-8 bg-gray-50" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-10">Galeri Produk</h2>
+      <div class="lightbox-gallery flex flex-col items-center space-y-6 mb-8">
+        <img src="https://cdn.fastcdnshop.com/image/a7b005b3348edc91354837d11602e4459b7bcefe.jpeg" alt="Produk 1" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/16d1d7fef27465dfefc415aea9ecd529a4d71565-500.png" alt="Produk 2" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/9b740908726873171688bf19d78a0ab52cc8fd6f-500.png" alt="Produk 3" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/21527b85422a920f200c8ae288587cc5439d297e-500.png" alt="Produk 4" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/fc0a28c9ab01e0398aa0ba092d4b708598925aa3-500.png" alt="Produk 5" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/c4c1629989fef6a4441fca438d0567fae5661e64-400.png" alt="Produk 6" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/eba759d4d45b3ce4e437ec77743fa73beaad6aba-400.png" alt="Produk 7" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/91883255613a893a953447e749515cbb93dbb741-400.png" alt="Produk 8" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.fastcdnshop.com/image/0a5c74a361b58d6dbf88ebbb084666c461bf9f06.jpeg" alt="Produk 9" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/91223c75d2c80682bf7bafbc0855cdbbb68dabe4-400.png" alt="Produk 10" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">
+        <img src="https://cdn.wshopon.com/image/c9b4cea60439c2c09ab5121dea82071ec6c13bf6-400.png" alt="Produk 10" class="rounded-lg shadow-md cursor-pointer w-full max-w-md" loading="lazy">        
+      </div>
+      <div class="text-center">
+        <img src="https://cdn.fastcdnshop.com/image/d9621ab1acbc58dedac74a19d9644dd5d68f985c.gif" alt="Demo Video" class="w-full max-w-3xl mx-auto rounded-lg shadow-md" autoplay muted loop>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fitur & Manfaat -->
+  <section class="py-16 px-4 md:px-8 bg-white" data-aos="fade-up">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-10">Fitur & Manfaat</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center p-6 border rounded-lg shadow-sm">
+          <i data-feather="settings" class="w-12 h-12 mx-auto text-gray-500 mb-4"></i>
+          <h3 class="text-xl font-medium mb-2">Adjustable Legs</h3>
+          <p class="text-gray-600">Kaki kokoh dan dapat disesuaikan untuk berbagai permukaan dan sudut pengambilan gambar.</p>
+        </div>
+        <div class="text-center p-6 border rounded-lg shadow-sm">
+          <i data-feather="magnet" class="w-12 h-12 mx-auto text-gray-500 mb-4"></i>
+          <h3 class="text-xl font-medium mb-2">Magnetic Grip</h3>
+          <p class="text-gray-600">Pemasangan dan pelepasan ponsel dengan sangat cepat dan stabil.</p>
+        </div>
+        <div class="text-center p-6 border rounded-lg shadow-sm">
+          <i data-feather="package" class="w-12 h-12 mx-auto text-gray-500 mb-4"></i>
+          <h3 class="text-xl font-medium mb-2">Ringkas & Ringan</h3>
+          <p class="text-gray-600">Desain portabel yang mudah dibawa ke mana saja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cara Penggunaan -->
+  <section class="py-16 px-4 md:px-8 bg-gray-50" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-6">Cara Penggunaan</h2>
+      <div class="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0 md:space-x-6">
+        <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3">
+          <div class="text-2xl font-bold text-gray-700 mb-2">1</div>
+          <p class="text-gray-600">Tempelkan tripod ke permukaan logam atau tripod stand.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3">
+          <div class="text-2xl font-bold text-gray-700 mb-2">2</div>
+          <p class="text-gray-600">Letakkan ponsel di atas magnetic base.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow w-full md:w-1/3">
+          <div class="text-2xl font-bold text-gray-700 mb-2">3</div>
+          <p class="text-gray-600">Atur sudut dan mulai rekam atau foto!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Harga & Promo -->
+  <section class="py-16 px-4 md:px-8 bg-white" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold mb-4">Harga Spesial Hari Ini</h2>
+      <div class="flex flex-col items-center">
+        <p class="text-2xl text-gray-500 line-through">Rp 398.482</p>
+        <p class="text-4xl font-bold text-gray-800 my-2">Rp 195.241</p>
+        <p class="text-red-500 font-medium mb-4">Diskon 51% - Harga Terbatas!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Form -->
+  <section id="order" class="py-16 px-4 md:px-8 bg-gradient-to-br from-gray-100 to-gray-200">
+    <div class="max-w-2xl mx-auto glassmorphism p-6 md:p-8 rounded-xl shadow-lg">
+      <h2 class="text-2xl font-semibold text-center mb-6">Pesan Sekarang</h2>
+      <!-- OrderOnline Embed Code - v8.0.4 -->
+      <div class="ooef">
+        <form class="orderonline-embed-form" data-username="nava" data-product-slug="extendable-bluetooth-tripod" data-product-id="68b8032ad8420f3c060a42e7" id="oo-embed-form-extendable-bluetooth-tripod-6485" data-origin="orderonline">
+          <div class="ooef-loader">
+            <style>
+              .ooef-loader{
+                visibility: hidden;
+                opacity: 0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                animation: ooLoadingIn 10s ease;
+                -webkit-animation: ooLoadingIn 10s ease;
+                animation-fill-mode: forwards;
+                overflow: hidden
+              }
+              @keyframes ooLoadingIn{
+                0%{visibility: hidden;opacity: 0}
+                20%{visibility: visible;opacity: 0}
+                100%{visibility: visible;opacity: 1}
+              }
+              @-webkit-keyframes ooLoadingIn{
+                0%{visibility: hidden;opacity: 0}
+                20%{visibility: visible;opacity: 0}
+                100%{visibility: visible;opacity: 1}
+              }
+              .ooef-loader>div,
+              .ooef-loader>div:after{
+                border-radius: 50%;
+                width: 2.5rem;
+                height: 2.5rem
+              }
+              .ooef-loader>div{
+                font-size: 10px;
+                position: relative;
+                text-indent: -9999em;
+                border: .25rem solid #f5f5f5;
+                border-left: .25rem solid #55c4cf;
+                -webkit-transform: translateZ(0);
+                -ms-transform: translateZ(0);
+                transform: translateZ(0);
+                -webkit-animation: ooLoading 1.1s infinite linear;
+                animation: ooLoading 1.1s infinite linear
+              }
+              .ooef-loader.error>div{
+                border-left: .25rem solid #ff4500;
+                animation-duration: 5s
+              }
+              @-webkit-keyframes ooLoading{
+                0%{-webkit-transform: rotate(0);transform: rotate(0)}
+                100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}
+              }
+              @keyframes ooLoading{
+                0%{-webkit-transform: rotate(0);transform: rotate(0)}
+                100%{-webkit-transform: rotate(360deg);transform: rotate(360deg)}
+              }
+            </style>
+            <div aria-live="polite" role="status">
+              <div>Loading...</div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <script>
+        if (typeof xLogError != 'function') {
+          var xLogError = function (error) {
+            var req = new XMLHttpRequest();
+            var payload = JSON.stringify({ url: document.location.href, line: error.line, stack: error.stack });
+            var params = 'message=' + encodeURIComponent(error.name) + '&payload=' + encodeURIComponent(payload) + '&type=embed&level=error';
+            req.open('POST', 'https://api.orderonline.id/log', true);
+            req.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+            req.send(params);
+          };
+        }
+        try {
+          if (typeof xEmbedScript != 'function') {
+            var xEmbedScript = function () {
+              !function(w, d, e, v, id, t, s) {
+                if (d.getElementById(id)) return;
+                t = d.createElement(e);
+                t.async = !0;
+                t.src = v;
+                t.id = id;
+                s = d.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+              }(window, document, 'script', 'https://cdn.orderonline.id/js/embed-v2-slim.min.js?v=8.0.4', 'oo-embed-js');
+            };
+          }
+          if (typeof xEmbedInit != 'function') {
+            var xEmbedInit = function (w, n) {
+              if (w.ooe) return;
+              n = w.ooe = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+              };
+              if (!w._ooe) w._ooe = n;
+              n.push = n;
+              n.loaded = !0;
+              n.version = '8.0.4';
+              n.queue = [];
+            };
+          }
+          xEmbedInit(window);
+          ooe('setup', 'redirect', 'https://nava.orderonline.id');
+          ooe('init', '5f119cd08dcbdb2737678706', '68b8032ad8420f3c060a42e7', '68b8032ad8420f3c060a42e8', 'oo-embed-form-extendable-bluetooth-tripod-6485', {"mode":"page","action":"Klik untuk pemesanan","title":"Form Pemesanan","triggerPixel":true,"triggerGtm":true});
+          if (!window.jQuery) {
+            !function(w, d, e, v, id, t, s) {
+              if (d.getElementById(id)) return;
+              t = d.createElement(e);
+              t.async = !0;
+              t.src = v;
+              t.id = id;
+              t.addEventListener('load', xEmbedScript);
+              s = d.getElementsByTagName(e)[0];
+              s.parentNode.insertBefore(t, s);
+            }(window, document, 'script', 'https://cdn.orderonline.id/js/vendor/jquery.min.js', 'oo-embed-jquery');
+          } else {
+            xEmbedScript();
+          }
+        } catch (e) {
+          xLogError(e);
+          throw e;
+        }
+      </script>
+      <!-- End OrderOnline Embed Code -->
+    </div>
+  </section>
+
+  <!-- Sticky CTA Mobile -->
+  <div class="sticky-cta fixed bottom-4 right-4 z-50">
+    <a href="#order" class="bg-gray-300 hover:bg-gray-400 text-black font-medium py-3 px-5 rounded-full shadow-lg transition duration-300">Beli Sekarang</a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    feather.replace();
+
+    // Social Proof Popup
+    const names = ["Vina", "Dina", "Kartika", "Lestari", "Putri", "Maya Sari", "Rani", "Permata", "Lestari F"];
+    const cities = ["Jakarta", "Surabaya", "Bandung", "Medan", "Bekasi", "Tangerang", "Depok", "Semarang"];
+    const popup = document.getElementById('social-proof-popup');
+    const popupName = document.getElementById('popup-name');
+    const popupCity = document.getElementById('popup-city');
+    const popupTime = document.getElementById('popup-time');
+
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function showPopup() {
+      const name = names[Math.floor(Math.random() * names.length)];
+      const city = cities[Math.floor(Math.random() * cities.length)];
+      const time = getRandomInt(1, 15) + " menit lalu";
+
+      popupName.textContent = name;
+      popupCity.textContent = city;
+      popupTime.textContent = time;
+
+      popup.classList.add('show');
+
+      let hideTimeout = setTimeout(() => {
+        popup.classList.remove('show');
+      }, 5000);
+
+      popup.addEventListener('mouseenter', () => clearTimeout(hideTimeout));
+      popup.addEventListener('mouseleave', () => {
+        hideTimeout = setTimeout(() => {
+          popup.classList.remove('show');
+        }, 5000);
+      });
+    }
+
+    setInterval(showPopup, 8000);
+    showPopup();
+  </script>
+</body>
+</html>
